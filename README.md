@@ -1,2 +1,2 @@
 # Harsh
-this is my first repository
+This is our thrift shopping website 
