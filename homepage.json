@@ -1,0 +1,16 @@
+{
+    "categories": [
+      { "name": "Maxi Skirts", "image": "/api/placeholder/200/300", "link": "#" },
+      { "name": "Men's Fashion", "image": "/api/placeholder/200/300", "link": "#" },
+      { "name": "Slit Dress", "image": "/api/placeholder/200/300", "link": "#" },
+      { "name": "Men's Formals", "image": "/api/placeholder/200/300", "link": "#" },
+      { "name": "Women's Formal", "image": "/api/placeholder/200/300", "link": "#" },
+      { "name": "Bridal Attire", "image": "/api/placeholder/200/300", "link": "#" }
+    ],
+    "products": [
+      { "name": "Leather Blazers", "image": "/api/placeholder/300/300", "price": "$120", "link": "#" },
+      { "name": "Dark Denim", "image": "/api/placeholder/300/300", "price": "$90", "link": "#" },
+      { "name": "Cozy Knits", "image": "/api/placeholder/300/300", "price": "$70", "link": "#" },
+      { "name": "Black Boots", "image": "/api/placeholder/300/300", "price": "$110", "link": "#" }
+    ]
+  }

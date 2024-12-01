@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Echocloset</title>
+  <link rel="stylesheet" href="contactpage.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+  <img src="logo.png" alt="ECHOCLOSET Logo" class="logo"> <!-- Logo positioned outside container -->
+  <div class="container">
+    <div class="header">
+      <h1>Contact With Us</h1>
+    </div>
+    <form id="contactForm">
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      <textarea id="message" name="message" placeholder="Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <div class="go-back">
+      <button onclick="location.href='homepage.html'">Go Back to Homepage</button>
+    </div>
+  </div>
+  <script src="contactpage.js"></script> <!-- Link to your script if needed -->
+</body>
+</html>

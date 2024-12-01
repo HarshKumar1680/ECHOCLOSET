@@ -1,0 +1,104 @@
+:root {
+    --primary-blue: #8DD3D1;
+    --primary-yellow: #FCE698;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Global font-family */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    background-color: var(--primary-blue);
+    padding: 10px 20px;
+    font-family: 'Arial', sans-serif; /* Added font-family */
+}
+
+.hero-section {
+    text-align: center;
+    padding: 3em 1em; /* Corrected padding */
+    background-image: url('bgabout.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.category-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.category-label {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: var(--primary-yellow);
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.product-card {
+    background-color: #f5f5f5;
+    transition: transform 0.2s ease; /* Smoother transition */
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.shop-now-btn {
+    border: 2px solid black;
+    padding: 8px 16px;
+    display: inline-block;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease; /* Improved transition */
+}
+
+.shop-now-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.search-item {
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.search-icon {
+    color: #666;
+    margin-right: 8px;
+}
+
+.like-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price {
+    color: #FF4E4E;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .product-card {
+        transform: none; /* Disable hover effect on smaller screens */
+    }
+}

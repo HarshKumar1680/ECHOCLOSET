@@ -1,0 +1,22 @@
+[
+    {
+      "name": "Skinny Jeans",
+      "image": "skinnyjeans.jpg",
+      "link": "#"
+    },
+    {
+      "name": "Slim Fit Jeans",
+      "image": "slimfitjeans.jpg",
+      "link": "#"
+    },
+    {
+      "name": "wideleg.jpg",
+      "image": "wideleg.jpg",
+      "link": "#"
+    },
+    {
+      "name": "Bootcut Jeans",
+      "image": "bootcut.jpg",
+      "link": "#"
+    }
+  ]

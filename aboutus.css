@@ -1,0 +1,236 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f8f8;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-top {
+  font-size: 0.9em;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.header-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 180px;
+  height: auto;
+}
+
+.search-container {
+  flex-grow: 1;
+  max-width: 600px;
+  margin-left: 20px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+  font-size: 1em;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 5px 10px;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: #0073e6;
+}
+
+/* About Section */
+.about-section {
+  background: url('image42.jpeg') no-repeat center center;
+  background-size: cover;
+  padding: 80px 20px;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.about-section .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.about-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.about-section .intro {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.about-section p {
+  font-size: 1.1em;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #eee;
+}
+
+/* Mission Section */
+.mission-section {
+  padding: 60px 20px;
+  background: url('image44.jpeg') no-repeat center center; /* Add your background image URL here */
+  background-size: cover; /* Ensures the image covers the entire section */
+  color: #fff;
+  margin-top: 40px;
+  text-align: center;
+}
+.mission-section .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.mission-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.mission-section p {
+  font-size: 1.1em;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Add bold text to the paragraph */
+.bold-text {
+  font-weight: bold;
+}
+
+/* Thrifting Section */
+.thrifting-section {
+  padding: 60px 20px;
+  background-color: #eef5f7;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.thrifting-section h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.thrifting-section p {
+  font-size: 1.1em;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #666;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-links a,
+.footer-social a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.footer-links a:hover,
+.footer-social a:hover {
+  color: #0073e6;
+}
+
+.footer-links {
+  margin-bottom: 20px;
+}
+
+.footer-social {
+  margin-top: 20px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .header-main {
+    flex-direction: column;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-section .overlay {
+    padding: 20px;
+  }
+
+  .about-section h2,
+  .mission-section h2,
+  .thrifting-section h2 {
+    font-size: 1.8em;
+  }
+
+  .about-section p,
+  .mission-section p,
+  .thrifting-section p {
+    font-size: 1em;
+  }
+} 
