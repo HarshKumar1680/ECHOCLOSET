@@ -1,2 +1,1 @@
 # ECHOCLOSET
-*Echocloset* is a stylish and sustainable thrift store offering carefully curated pre-loved fashion pieces for every occasion. With a focus on affordability and environmental impact, it brings unique, high-quality clothing at up to 60% off estimated retail prices. Discover your fall wardrobe essentials, from cozy knits to timeless leather blazers, while contributing to a more sustainable planet.
